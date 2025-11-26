@@ -1,96 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Nwokocha DivineGift • Writing Portfolio</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nwokocha DivineGift — Writing Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --gold:#caa95a;
+      --black:#0b0b0b;
+      --bg:#0f0f10;
+    }
+    body{background:linear-gradient(180deg,#070707 0%, #0f0f10 100%); color:#f7f5f3}
+    a { color: var(--gold) }
+    .card { background: rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.04) }
+  </style>
 </head>
+<body class="antialiased">
 
-<body class="bg-neutral-50 text-gray-800 font-sans leading-relaxed">
+  <nav class="max-w-5xl mx-auto flex items-center justify-between p-6">
+    <div class="flex items-center space-x-3">
+      <div class="h-12 w-12 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center text-black font-bold">ND</div>
+      <div>
+        <h1 class="text-2xl font-extrabold" style="color:var(--gold)">Nwokocha DivineGift</h1>
+        <div class="text-xs opacity-70">Content • Creative • Finance & Forex</div>
+      </div>
+    </div>
+    <div class="space-x-4 text-sm">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="finance.html">Finance</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="px-3 py-1 border rounded border-yellow-600">Hire Me</a>
+    </div>
+  </nav>
 
-<!-- HERO -->
-<section class="p-10 text-center space-y-3">
-    <h1 class="text-5xl font-bold">Nwokocha DivineGift</h1>
-    <p class="text-lg tracking-wide">Content Writer • Creative Writer • Finance & Forex Writer</p>
-    <p class="text-sm opacity-75">Fashion • Lifestyle • Travel • Mystery • Nature • Skincare • Beauty • Tech • Business • Forex • Macro-economics</p>
-</section>
+  <header class="max-w-4xl mx-auto text-center py-12">
+    <h2 class="text-5xl font-extrabold mb-4" style="color:var(--gold)">Storytelling that Converts — Copy & Long-form Finance</h2>
+    <p class="opacity-80 max-w-2xl mx-auto">Hybrid writing: cinematic imagery + rigid SEO structure. Long-form guides, detailed forex analysis, creative features, and commercial copy that persuades.</p>
+    <div class="mt-8 flex items-center justify-center gap-4">
+      <a href="portfolio.html" class="px-6 py-3 rounded bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-semibold">See Portfolio</a>
+      <a href="contact.html" class="px-6 py-3 border rounded border-white/20">Work with me</a>
+    </div>
+  </header>
 
-<!-- ABOUT -->
-<section class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-md space-y-3">
-    <h2 class="text-2xl font-bold">About Me</h2>
-    <p>
-        I am a versatile Content & Finance Writer who transforms research, data, and creative ideas into
-        compelling long-form writing. I write across finance, forex, macro-economics, beauty, skincare, 
-        travel, lifestyle, tech, narrative storytelling & brand content — blending clarity with emotional depth.
-    </p>
-    <p>
-        I specialize in breaking down complex topics into simple, elegant, engaging articles — fast,
-        accurate, and polished. My work is detailed, human, cinematic, and deeply readable.
-    </p>
-</section>
+  <main class="max-w-4xl mx-auto space-y-8 px-6">
 
+    <section class="card p-6 rounded-2xl">
+      <h3 class="text-xl font-bold mb-2" style="color:var(--gold)">Featured — Finance Deep Guide</h3>
+      <p class="opacity-80">Long-form Forex & Finance articles that explain market mechanics simply and accurately. <a href="finance.html">Read the sample →</a></p>
+    </section>
 
-<!-- MAIN WRITING PORTFOLIO -->
-<section class="max-w-4xl mx-auto mt-10 space-y-10">
+    <section class="grid md:grid-cols-2 gap-6">
+      <a class="card p-6 rounded-2xl" href="portfolio.html">
+        <h4 class="font-bold text-lg">Creative Portfolio</h4>
+        <p class="opacity-75 mt-2">Fashion, Lifestyle, Travel, Nature, Mystery — narrative-led features and magazine-style pieces.</p>
+      </a>
 
-    <h2 class="text-3xl font-bold text-center">Writing Portfolio</h2>
+      <a class="card p-6 rounded-2xl" href="contact.html">
+        <h4 class="font-bold text-lg">Services & Rates</h4>
+        <p class="opacity-75 mt-2">Long-form articles, SEO packs, product descriptions, brand storytelling, and content strategy.</p>
+      </a>
+    </section>
 
-    <!-- FASHION -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">FASHION — Quiet Luxury (Full Feature)</h3>
-        <p>Quiet luxury is not loud — it whispers. Soft tones, expensive fabrics, fabrics chosen with intention...</p>
-    </article>
+    <section class="card p-6 rounded-2xl">
+      <h4 class="font-semibold">What I deliver</h4>
+      <ul class="list-disc pl-6 mt-2 opacity-80">
+        <li>1,500–3,000+ word finance & forex guides</li>
+        <li>Publisher-ready long features (700–2,000 words)</li>
+        <li>SEO structured web pages & product descriptions</li>
+        <li>Fast turnaround, precise fact-checking</li>
+      </ul>
+    </section>
 
-    <!-- LIFESTYLE -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">LIFESTYLE — Soft Living in a Hard World</h3>
-        <p>Soft living is not laziness — it is liberation. It is choosing joy, peace, a slower tempo of life...</p>
-    </article>
+  </main>
 
-    <!-- TRAVEL -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">TRAVEL — Lost in Zanzibar</h3>
-        <p>Zanzibar does not greet you — it embraces you. Turquoise waters, warm wind, gold-washed sunsets...</p>
-    </article>
-
-    <!-- MYSTERY -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">MYSTERY — The House on Riverlane</h3>
-        <p>Rain fell like silver wire the night Mara returned. The abandoned house glowed with a single candle...</p>
-    </article>
-
-    <!-- NATURE -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">NATURE — When the Forest Breathes</h3>
-        <p>The forest is a cathedral. Light spills through leaves like stained glass, wind hums like choir notes...</p>
-    </article>
-
-    <!-- FINANCE & FOREX -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">FOREX / FINANCE — Long-Form Educational Sample</h3>
-        <p>Forex is the language of currencies, liquidity, volatility — markets moving like tides across the globe...</p>
-    </article>
-
-    <!-- BEAUTY -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">BEAUTY & SKINCARE — Ingredient-Focused Review</h3>
-        <p>Skin does not glow by accident — it glows by care, by routine, by science and oil and patience...</p>
-    </article>
-
-    <!-- TECH -->
-    <article class="bg-white p-6 rounded-2xl shadow">
-        <h3 class="text-xl font-bold mb-2">TECH — Simplified Concept Breakdown</h3>
-        <p>Technology is just storytelling written in code — complex ideas reduced into actions we perform in one tap...</p>
-    </article>
-
-</section>
-
-<!-- CONTACT -->
-<footer class="mt-12 max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow text-center space-y-2">
-    <h2 class="text-xl font-bold">Contact</h2>
-    <p>Email: deegiftedvenus@gmail.com</p>
-    <p>Phone: 09061940757</p>
-</footer>
+  <footer class="max-w-4xl mx-auto text-center py-8 opacity-80">
+    <div>© Nwokocha DivineGift — Writing Portfolio • <a href="contact.html">Hire me</a></div>
+  </footer>
 
 </body>
 </html>
